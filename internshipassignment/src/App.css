@@ -25,6 +25,11 @@
 .logo {
   height: 50px;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  transform: rotateZ(180deg);
 }
 
 .LogoHeading {
@@ -97,6 +102,15 @@ header {
   font-size: 2rem;
 }
 
+.landing-graphics {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.image-phone {
+  opacity: 1;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.6));
+}
 /*------------------SECTION----------------------*/
 
 /*--------Section1: What is Alinea---------*/

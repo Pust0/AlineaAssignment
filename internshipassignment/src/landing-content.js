@@ -40,7 +40,7 @@ function Content(){
             <p>A community for Investors</p>
          </div>
          <div className="landing-graphics">
-            
+            <img src={feature1} className="image-phone" alt="PhoneImage"/>
          </div>
       </div>
    )
