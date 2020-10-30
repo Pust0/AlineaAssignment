@@ -11,7 +11,7 @@ function Section2(){
                <div className="carousel">
                   <div className="leftCarouselComp"></div>
                   <div className="mainCarouselComp">
-                     <div className="slide-track">
+                     <div className="slide-track1">
                         <div className="slide-image">
                            <img src="https://investedmillennial.com/wp-content/uploads/2020/10/cropped-Logo_Invested-Millennial.png" loading="lazy" className="slide-image-img"/>
                         </div>
@@ -30,8 +30,25 @@ function Section2(){
                         <div className="slide-image">
                            <img src="https://thepowerthread.com/wp-content/uploads/2020/09/Logo-Type-for-Website-1024x71.png" loading="lazy"  className="slide-image-img"/>
                         </div>
+                     </div>
+                     <div className="slide-track2">
                         <div className="slide-image">
                            <img src="https://investedmillennial.com/wp-content/uploads/2020/10/cropped-Logo_Invested-Millennial.png" loading="lazy" className="slide-image-img"/>
+                        </div>
+                        <div className="slide-image">
+                           <img src="https://thepowerthread.com/wp-content/uploads/2020/09/Logo-Type-for-Website-1024x71.png" loading="lazy" className="slide-image-img"/>
+                        </div>
+                        <div className="slide-image">
+                           <img src="https://investedmillennial.com/wp-content/uploads/2020/10/cropped-Logo_Invested-Millennial.png" loading="lazy"  className="slide-image-img"/>
+                        </div>
+                        <div className="slide-image">
+                           <img src="https://thepowerthread.com/wp-content/uploads/2020/09/Logo-Type-for-Website-1024x71.png" loading="lazy"  className="slide-image-img"/>
+                        </div>
+                        <div className="slide-image">
+                           <img src="https://investedmillennial.com/wp-content/uploads/2020/10/cropped-Logo_Invested-Millennial.png" loading="lazy" className="slide-image-img"/>
+                        </div>
+                        <div className="slide-image">
+                           <img src="https://thepowerthread.com/wp-content/uploads/2020/09/Logo-Type-for-Website-1024x71.png" loading="lazy"  className="slide-image-img"/>
                         </div>
                      </div>
                   </div>
