@@ -127,7 +127,7 @@ header {
   max-width: 400px;
   text-align: center;
   box-shadow: 0px;
-  cursor: pointer;
+  cursor: default;
   border-radius: 4px;
   transition: ease 0.3s;
 }
@@ -293,3 +293,33 @@ header {
 }
 
 /*------------------FOOTER----------------------*/
+
+.Footer-container {
+  min-height: 50px;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer-links {
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.Footer-link {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.Footer-copyrightMessage {
+  font-size: 14px;
+}
+
+.Footer-breakpoint {
+  margin: 0 16px;
+}

@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Content from "./landing-content";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
+import Footer from "./Footer";
 import "./App.css";
 
 function App(){
@@ -17,7 +18,9 @@ function App(){
       <Section1/>
       <Section2/>
     </div>
-    <div className="footer"></div>
+    <div className="footer">
+      <Footer/>
+    </div>
   </div>
 
   )
