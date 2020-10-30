@@ -102,6 +102,7 @@ header {
 .Section1-heading {
   text-align: center;
   margin: 150px 0 30px;
+  font-size: 34px;
 }
 
 .Section1-cards {
@@ -117,9 +118,138 @@ header {
   flex-direction: column;
   align-items: center;
   flex: 1 1 30%;
+  padding: 20px;
   margin: 0 20px 20px;
   max-width: 400px;
   text-align: center;
+  box-shadow: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: ease 0.3s;
+}
+
+.Section1card h3 {
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: none;
+}
+
+.Section1card p {
+  font-size: 14px;
+  color: #445d6e;
+}
+
+.Section1card:hover {
+  background-color: #f3f6f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*--------Section2: Featured In---------*/
+
+.Section2 {
+  margin: 150px 0;
+  padding: 0 20px;
+}
+
+.outerSection2 {
+  min-height: 480px;
+}
+
+.midSection2 {
+  background-color: #ffffff;
+  max-width: 1200px;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section2-mainHeading {
+  font-size: 35px;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 0 10px;
+}
+
+.Section2-subHeading {
+  font-size: 18px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 230px;
+}
+
+.leftCarouselComp {
+  height: 100px;
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #fff 30%, hsla(0, 0%, 100%, 0));
+}
+
+.mainCarouselComp {
+  position: relative;
+  width: 1400px;
+  height: 100px;
+  margin: 0 0 20px;
+  flex: 0 0 auto;
+}
+
+.rightCarouselComp {
+  height: 100px;
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(270deg, #fff 30%, hsla(0, 0%, 100%, 0));
+}
+
+.slide-track {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-name: slide;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.slide-image {
+  flex: 1 1 200px;
+  min-width: 0;
+  margin: 20px;
+}
+
+.slide-image-img {
+  user-select: none;
+  pointer-events: none;
+  width: 100%;
+  object-fit: contain;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 /*------------------FOOTER----------------------*/
