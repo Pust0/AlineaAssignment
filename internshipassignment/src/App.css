@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;500;600;700;800&display=swap");
 
 /*---------------------------PageWrapper--------------------------------*/
 
@@ -17,6 +18,7 @@
   min-height: 540px;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(-90deg, #36d1dc, #5b86e5);
 }
 
 /*--------Navbar---------*/
@@ -89,7 +91,7 @@ header {
 }
 
 .hero-content-inner p {
-  color: rgb(105, 102, 102);
+  color: rgb(48, 48, 48);
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 2rem;
@@ -100,6 +102,8 @@ header {
 /*--------Section1: What is Alinea---------*/
 
 .Section1-heading {
+  font-family: "Trispace", sans-serif;
+  font-weight: 500;
   text-align: center;
   margin: 150px 0 30px;
   font-size: 34px;
@@ -129,6 +133,8 @@ header {
 }
 
 .Section1card h3 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
   margin: 15px 0;
   font-weight: 400;
   font-size: 20px;
@@ -143,6 +149,10 @@ header {
 .Section1card:hover {
   background-color: #f3f6f9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Card-image {
+  height: 50px;
 }
 
 /*--------Section2: Featured In---------*/
@@ -168,6 +178,8 @@ header {
 }
 
 .Section2-mainHeading {
+  font-family: "Trispace", sans-serif;
+  font-weight: 500;
   font-size: 35px;
   text-align: center;
   padding: 0 20px;

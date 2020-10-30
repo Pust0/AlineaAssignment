@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from "react";
 import "./App.css";
 import { TweenMax, TimelineLite, Power3 } from "gsap";
+import feature1 from "./Assets/feature1.gif";
 
 function Content(){
    let app = useRef(null);
@@ -38,7 +39,9 @@ function Content(){
             </h1>
             <p>A community for Investors</p>
          </div>
-         <div className="landing-graphics"></div>
+         <div className="landing-graphics">
+            
+         </div>
       </div>
    )
 }

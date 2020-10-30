@@ -4,7 +4,7 @@ import "./App.css";
 function Section1card({image, head, para}){
    return(
       <div className="Section1card">
-         <img src={image} alt="image"/>
+         <img src={image} alt="image" className="Card-image"/>
          <h3>{head}</h3>
          <p>{para}</p>
       </div>
